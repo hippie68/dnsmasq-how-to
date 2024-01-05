@@ -13,7 +13,7 @@ The Raspberry Pi (or similar device) must be given a static IP address, which ca
 
 # 1. Install dnsmasq (and the text editor used in this tutorial)
 
-    # sudo apt update && sudo apt install dnsmasq nano
+    $ sudo apt update && sudo apt install dnsmasq nano
 
 # 2. Create a dnsmasq configuration file
 
