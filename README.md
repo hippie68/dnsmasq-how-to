@@ -1,7 +1,7 @@
 This tutorial is primarily aimed at PS4 jailbreak users, but it can be used for other consoles, too, and even for adblocking.
 
 Currently many PS4 jailbreak users are in need of blocking Sony's firmware update servers. Public DNS servers made for this purpose turned out to be unreliable in the long term, so here is a short, simple tutorial that shows how to use a Raspberry Pi (or a similar device) to run a blocking DNS server in your own local network.
-Keep in mind that there are many different possible network configurations out there, and this quick tutorial only handles one of the most common home network situations where you have exactly one router where all your devices are directly connected to. The tutorial cannot provide support for more complicated setups. With that said, let's begin:
+Keep in mind that there are many different possible network configurations out there, and this quick tutorial only handles one of the most common home network situations where you have exactly one router where all your devices are directly connected to. The tutorial cannot provide support for more complicated setups.
 
 # Prerequisites
 
