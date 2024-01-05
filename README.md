@@ -81,3 +81,4 @@ If you want see what happens while dnsmasq is running, you can remove the "#" be
 
     $ sudo tail -f /var/log/dnsmasq.log
 
+Exit the view by pressing Ctrl-c.
