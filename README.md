@@ -43,7 +43,7 @@ addn-hosts=/etc/ps4blocklist
 
 Replace "server=xxx.xxx.xxx.xxx" with the (often two) DNS server IP addresses you were given by your ISP when you received your contract papers. If you don't know the IP addresses, use public ones, like Google's 8.8.8.8 or Cloudflare's 1.1.1.1. For some routers, you could also use the router's local network IP address.
 
-You can edit other values if you want to. But you need to understand what they do. The official dnsmasq homepage describes all available options in detail: https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html.
+You can edit other values if you want to. But you need to understand what they do. The official dnsmasq homepage describes all available options in detail: https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html.  
 It is assumed that the Raspberry Pi (or similar device) is connected via Ethernet cable and that the Ethernet connection is called "eth0". If on your device it has a different name, the line "interface=..." must be adjusted accordingly.
 
 Press Ctrl-x and confirm with "y" to save the file.
