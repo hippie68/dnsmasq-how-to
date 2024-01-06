@@ -56,7 +56,7 @@ Now create the PS4 block file, which in this example is called "/etc/ps4blocklis
 
 Paste a ready-made hosts file that contains all possible Sony update servers, for example this one: https://github.com/phoanglong/ps4-dns-block. This list looks complete to me, but if you spot any missing servers, please let me (or better, the list maintainer) know as soon as possible. There may be countries that use exotic servers that are missing. I don't want to take responsibility if an update should make it through, so make sure the list you use is complete. If I receive reports of a better list, I will update the link. The list will block firmware updates, but not game updates.
 
-Note thay by using multiple "addn-hosts=" lines, you could add many more block lists that block other stuff, too (e.g. adblock hosts lists, block lists for other consoles, etc.)
+Note that by using multiple "addn-hosts=" lines, you could add many more block lists that block other stuff, too (e.g. adblock hosts lists, block lists for other consoles, etc.).
 
 Again, save the file by pressing Ctrl-x and confirming with "y".
 
@@ -77,7 +77,8 @@ In the device's custom network settings, enter the Raspberry Pi's static IP addr
 
 # Optional: view log output
 
-If you want see what happens while dnsmasq is running, you can remove the "#" before the two "#log-..." entries. If your device uses an SD card, make sure the log file location is inside the RAM (on a Raspberry Pi, /var/log usually is). Restart dnsmasq (see above) and then you can view the log file "live" by entering
+If you want see what happens while dnsmasq is running, you can remove the "#" before the two "#log-..." entries. If you want to enable logging permanently and your device uses an SD card, make sure the log file location is inside the RAM. For example, enter the command "df" and verify the log file is stored on a "tmpfs" filesystem.  
+Restart dnsmasq (see above) and then you can view the log file "live" by entering
 
     $ sudo tail -f /var/log/dnsmasq.log
 
